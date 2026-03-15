@@ -34,22 +34,7 @@ operation of app, both include readme and unit test for code.
 *300zx sample pdf and 300zx sample md are input/output from the OCR TextExtraction to showcase operational capability of generated code
 using the agent_workbench.py
 ---
-#Project Structure
-Goal Setting and Monitoring/
-├─ agent_workbench.py
-├─ agents/
-│  ├─ __init__.py
-│  ├─ prompt_refiner.py
-│  ├─ peer_programmer.py
-│  ├─ code_reviewer.py
-│  ├─ test_writer.py
-│  └─ documenter.py
-├─ utils/
-│  ├─ __init__.py
-│  ├─ io_utils.py
-│  └─ text_utils.py
-├─ .env
-└─ .venv/
+
 
 ## Requirements
 
@@ -80,3 +65,19 @@ python generated_app_YYYYMMDD_HHMMSS.py
 python -m pip install -U streamlit
 streamlit run generated_app_YYYYMMDD_HHMMSS.py
 
+#Project Structure
+Goal Setting and Monitoring/
+├─ agent_workbench.py
+├─ agents/
+│  ├─ __init__.py
+│  ├─ prompt_refiner.py
+│  ├─ peer_programmer.py
+│  ├─ code_reviewer.py
+│  ├─ test_writer.py
+│  └─ documenter.py
+├─ utils/
+│  ├─ __init__.py
+│  ├─ io_utils.py
+│  └─ text_utils.py
+├─ .env
+└─ .venv/
